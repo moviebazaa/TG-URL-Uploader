@@ -1,0 +1,11 @@
+---
+application:
+  name: "tg-url-uploader"
+  project: "Uploade"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-tg-url-uploader"
+  routes:
+  - application_name: "tg-url-uploader"
+    paths:
+    - "/*"
